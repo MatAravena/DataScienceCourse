@@ -1,0 +1,30 @@
+MSE
+->The mean squared error expresses the mean squared distance between the prediction andmeasured value
+The best is close to cero
+
+
+R²
+The coefficient of determination indicateshow much dispersion in the data can be explained by the linear regression model.
+The coefficient of determination (R²) is a number between 0 and 1 that measures how well a statistical model predicts an outcome.
+The worst (R²) value a standardlinear regression can create is zero
+
+Overfitting
+-> describes the state of a machine learning model, which predicts training data much better than test data.
+You only start to see a discrepancy between training data and test data when you start using a lot of features. 
+A model with many features can only predict the training data it trained with well. If you give it independent new test data, it is totally overwhelmed
+
+
+bias 
+describes the average prediction error across different training datasets. A model with a very high bias hardly changes when the training data changes
+
+Variance
+describes how sensitively the model reacts to changes in the training data set. A model with a very high variance changes a lot when the training data changes
+
+bias and variance
+you need models that are neither simple (simple models have high bias) nor complex (complex models have high variance). So somewhere in the middle there is a model that is "medium complex"
+
+
+Ridge regression, 
+also known as Tikhonov regularization uses regularization to avoid overfitting. When the model is fitted to the data, there are two objectives that should be pursued:
+Keep the difference between predicted and actual target values as small as possible.
+Keep the sum of the squared slopes (e.g.  (𝑠𝑙𝑜𝑝𝑒1)2+(𝑠𝑙𝑜𝑝𝑒2)2 ) as small as possible.

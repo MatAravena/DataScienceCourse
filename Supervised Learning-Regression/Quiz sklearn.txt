@@ -1,0 +1,35 @@
+What kind of data should the target vector contain in a linear regression?
+        un-ordered categorical data, such as nationality
+        ordered categorical data, such as chart rankings
+-->     continuous data, such as weight
+        A linear regression is an unsupervised learning algorithm So it operates without a target vector.
+
+
+
+Which code creates features as a DataFrame?
+features = df.loc[:, ['feature_col']]
+
+
+
+
+A simple linear regression model is fitted to the data. The regression line describes the model. Which statement is NOT true?
+The regression line is defined by a slope and intercept.
+All predicted points of the model lie on the regression line.
+the regression line is calculated to be as close as possible to the data points of the training data set
+--->The regression line always intersects the y axis at point [0; 0], i.e. at the x coordinate 0.
+
+
+
+What code can you use to fit a linear regression model to data?
+model.fit(features, target)
+
+
+
+A simple linear regression model is used to calculate the taxi price (in EUR) using the distance driven (in km). The fitted model has the following parameters:
+Axis intercept = 3
+Slope = 1 What is the predicted price for a 5 km trip?
+   
+    1 EUR
+    3 EUR
+    5 EUR
+--> 8 EUR

@@ -1,0 +1,33 @@
+Which trained regression model is most likely to suffer from overfitting?
+        a simple linear regression model with one feature
+        a multiple linear regression model with two features
+        a multiple linear regression model with five features
+-->     a multiple linear regression model with 100 features
+
+
+If a machine learning model predicts training data much better than test data, this is called overfitting. Which measures are suitable for evaluating the quality of the predictions?
+        the standard deviation and mean of the predicted values
+        the difference between feature and target values
+-->     the mean squared error and the coefficient of determination
+        the difference between the number of predicted values and the number of cases in the training data
+
+
+A model with a high bias barely changes with the data, while a model with a high variance changes too much with the data and is can't be generalized. Which statement is true for a model that suffers from overfitting?
+        the model bias is too strong.
+-->     the model variance is too strong.
+        both bias and variance are too strong.
+        neither bias nor variance are strong enough.
+
+
+What can be done to avoid overfitting?
+        add lots of additional features
+        reduce the size of the training data set
+-->     simplify the model, for example by reducing the number of features
+        draw a scatter plot
+
+
+A measure of model complexity is the number of features used. Which regression model probably provides the best predictions for unknown data?
+-->     The model that best predicts test data according to mean squared error.
+        The model that best predicts training data according to mean squared error.
+        The model that uses the fewest features
+        The model that uses the most features

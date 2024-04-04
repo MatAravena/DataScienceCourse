@@ -1,0 +1,23 @@
+What kind of machine learning model is k-means?
+    It predicts continuous values, so it is a regression model.
+    It predicts categories, referred to as classes, so it is a classification model.
+--> It arranges the data into groups, known as clusters. So it is a clustering model.
+    It extracts the most important dimensions in the data. So it is a dimensionality reduction model.
+
+What does the k of k-means stand for?
+    The number of features the model uses for the cluster analysis.
+--> The number of clusters you want it to form.
+    The number of nearest data points that are required for at least one cluster.
+    The minimum distance that a cluster center must maintain to another cluster center.        
+
+Imagine you instantiated KMeans and named the new variable model. Which method ensures that the cluster centers are fitted to the data in the variable data.
+    model.predict(data) 
+    model.transform(data)
+--> model.fit(data)
+    model.labels_        
+
+What distance measure does KMeans use to calculate the distance between cluster centers and data points?
+--> The Euclidean distance
+    the Cosine similarity
+    The Manhattan Distance
+    None, the distance is not relevant for the algorithm

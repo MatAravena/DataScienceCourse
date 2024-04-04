@@ -1,0 +1,34 @@
+What kind of machine learning model is k-nearest neighbors?
+        It predicts continuous values, so it is a regression model.
+--->    It predicts categories, referred to as classes. So it is a classification model.
+        It arranges the data into groups, known as clusters. So it is a clustering model.
+        It extracts the most important dimensions in the data. So it is a dimensionality reduction model.
+
+
+What does the k of k-nearest neighbors stand for?
+        The number of features the model uses for classification.
+        The number of categories (classes) in the target vector.
+--->    The number of nearest data points that determine the classification of an unknown data point.
+        Konrad, the first name of the statistician who developed k-nearest neighbors.
+
+
+Imagine a pregnancy test reveals a total of two pregnancies in a total sample of 10 women. For two out of six pregnant women in this group, the test is correct and indicates pregnancy. 
+What does that mean for the quality of the test?
+--->    The recall is only 33%.
+        The accuracy is 33%.
+        The precision is 33%.
+        The coefficient of determination is 33%.
+
+
+Which model quality metric should a spam filter for a classification meet as a priority?
+        The recall
+--->    The precision
+        The coefficient of determination (R²)
+        The harmonic mean between precision and recall (F1 score)
+
+
+Imagine that a pregnancy test indicates a pregnancy for two people that are in fact pregnant and four people who are not pregnant. What does that mean for the quality of the test?
+        The recall is only 67%.
+        The accuracy is 50%.
+--->    The precision is 33%.
+        The coefficient of determination is 100%.

@@ -1,0 +1,29 @@
+What can you do to avoid under or overfitting?
+        transform the features to get them on a uniform scale
+--->    Perform a k-fold cross validation, which runs through the data again to estimate the model accuracy
+        use fewer data points
+        select the target vector again
+
+At each run, the cross validation divides data into a part used for training the model and a part used for evaluating the model. What part of the data is divided like this?
+        the feature matrix
+        the target vector
+--->    the entire data set (features and target)
+        the confusion matrix
+
+In the case of a ten-fold cross validation the data is divided into ten equal parts. How often is a machine learning model then trained and evaluated? So how many runs are there in this case?
+--->    10
+        5
+        9
+        11
+
+With a three-fold cross validation, three values are obtained for the model quality metric. What is then the expected quality of the model with unknown data?
+        the maximum value of the model quality values
+        the minimum value of model quality values
+--->    the mean value of the model quality values
+        the median of the model quality values
+
+Which model quality metrics for supervised learning are suitable for cross validation?
+        recall
+        precision
+        accuracy
+--->    all the model quality metrics are suitable
