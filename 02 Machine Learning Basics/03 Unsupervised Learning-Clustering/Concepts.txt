@@ -1,0 +1,12 @@
+K-Means 
+
+
+
+DBSCAN stands for Density-Based Spatial Clustering of Applications with Noise
+DBSCAN works as follows:
+
+A maximum distance eps is defined.
+All points that have at least min_samples of neighbors within this radius, are what are known as core points of a cluster
+Data points that are close enough to core points but don't have enough neighbors themselves are called border points
+Neighboring core and directly reachable points are assigned to the same cluster
+Data points that lie outside a cluster's neighborhood that don't have enough neighbors themselves to form their own cluster, are known as outliers or noise points

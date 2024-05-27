@@ -1,0 +1,33 @@
+What is an outlier?
+        A test data set with target values.
+        A machine learning model that generally achieves a good level of model quality.
+--->    An extremely unusual data point.
+        A data set without target values.
+
+
+Why are outliers problematic?
+        They have an excessively small impact on the performance of machine learning models.
+--->    They have an excessively large impact on the performance of machine learning models.
+        They always represent incorrectly measured values.
+        They are thus unimportant and unnecessarily increase the required storage space of the data.
+
+
+When are key performance indicators and machine learning models described as "robust"?
+        If the calculation uses few resources
+        If their numerical values are only integers
+--->    If they are hardly influenced by outliers
+        If they do not contain any test errors
+
+
+What is a robust alternative to the arithmetic mean?
+        minimum
+        maximum
+        interquartile range
+--->    median
+
+
+What is a robust alternative to standard deviation?
+        mean absolute deviation
+--->    median absolute deviation
+        mean squared error
+        median

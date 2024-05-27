@@ -1,0 +1,33 @@
+Logistic regression 
+is a well-known algorithm for classification tasks. Although it's mentioned in the name, this algorithm can't be used for regression tasks.
+
+
+The object  𝑒
+is constant called Euler's number and its value is roughly 2.71
+
+
+The Sigmoid function
+ is that it only outputs continuous values between 0 and 1. 
+
+
+Collinearity
+In statistics, multicollinearity or collinearity is a situation where the predictors in a regression model are linearly dependent. 
+Perfect multicollinearity refers to a situation where the predictive variables have an exact linear relationship. 
+
+
+R²
+The coefficient of determination 
+measures how well a statistical model predicts an outcome. The outcome is represented by the model’s dependent variable.
+The lowest possible value of R² is 0 and the highest possible value is 1. 
+Put simply, the better a model is at making predictions, the closer its R² will be to 1.
+
+
+One-hot encoding
+is used to represent categorical features with new binary features that only contain `0` and `1`.
+
+
+ROC curve
+describes how the recall and false positive rate change with the threshold value.
+
+ROC AUC
+Receiver operator characteristic area under the curve

@@ -1,0 +1,29 @@
+What kind of machine learning model is PCA?
+    It predicts continuous values, so it is a regression model.
+    It predicts categories, referred to as classes, so it is a classification model.
+    It arranges the data into groups, known as clusters. So it is a clustering model.
+--> It extracts the most important dimensions in the data. So it is a dimensionality reduction model.
+
+What does the hyperparameter n_components of PCA stand for?
+--> The number of principal components on which the data are projected.
+    The number of features you want to get rid of.
+    The number of data points which are transformed.
+    The number of data points you want to remove.
+
+Imagine you instantiated PCA and named the new variable model. You then fitted model to the data. How can you check the quality of the projection?
+    model.best_score_
+    model.n_components_
+--> model.explained_variance_ratio_
+    model.labels_
+
+What is feature engineering?
+--> Changing existing column values and creating new columns
+    Cleaning up existing columns
+    Cleaning up existing rows
+    Changing existing row values and creating new rows
+
+What exactly does principal component analysis (PCA) do?
+    It transforms the feature matrix to the target vector.
+--> It looks for the direction of the greatest variance and projects the data points onto it.
+    It assigns the data points to the nearest cluster.
+    It divides the data set into a training data set and a test data set

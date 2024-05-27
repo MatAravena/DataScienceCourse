@@ -1,0 +1,33 @@
+What's the difference between linear and logistic regression?
+    Linear regression can only use continuous features, whereas logistic regression can also use categorical features.
+    A trained linear regression model has model parameters such as intercept and slope values, which you can't access in a trained logistic regression.
+    The linear regression model can be found in the sklearn module sklearn.linear_model, while the logistic regression model is not located there.
+--> Linear regression predicts continuous target values, while logistic regression predicts category probabilities.
+
+
+What assumptions does a logistic regression model make?
+    The target vector consists only of categories.
+    The features don't correlate with each other.
+    There is a linear relationship between the features and the logit-transformed category probabilities.
+--> All of the above.
+
+
+What is an advantage of k Nearest Neighbors over logistic regression?
+    The k Nearest Neighbors model requires less memory than logistic regression.
+    The k Nearest Neighbors model can use more features for its predictions than logistic regression.
+--> The k Nearest Neighbors model is more robust against outliers.
+    The k Nearest Neighbors model can also be used for continuous predictions, whereas this is not the case with logistic regression.
+
+
+Why do you we label encoding when preparing data?
+--> Because a lot of data science algorithms only allow numerical features.
+    Because it reduces the impact of outliers.
+    Because this way there are no problems due to missing data.
+    Because otherwise we can only use unsupervised learning models.
+
+
+When do you use one-hot encoding?
+    When you want to scale data.
+    When you want to eliminate correlated features.
+--> When you want to encode categorical features with more than two categories.
+    If you want to avoid overfitting.

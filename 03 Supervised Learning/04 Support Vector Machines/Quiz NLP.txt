@@ -1,0 +1,26 @@
+What is lemmatization?
+    It expresses the similarity between texts numerically.
+--> It reduces words to their root form.
+    It calculates the standard deviation of the frequency of words in different texts.
+    It transposes words into their square form.
+
+
+What is vectorization in NLP?
+    Generating texts from vectors so that they can be read by humans.
+--> Vectors are generated from texts so that they can be used by machine learning algorithms. The vectors are often based on the number of specific words in a text.
+    Vectors are generated from texts so that they can be used by machine learning algorithms. This is usually done by assigning a number to each letter of the text.
+    Generating texts from vectors so that they can be used by machine learning algorithms.
+
+
+What are two typical vectorization methods?
+    Standardization and bag of words
+    term frequency–inverse document frequency and random forest
+--> bag of words and *term frequency–inverse document frequency
+    random forest and bag of words
+
+
+What are stop words?
+    Words that bring the model training to a standstill.
+--> Words that occur very frequently in a lot of texts and don't carry much meaning, such as articles.
+    Words that are misspelled and therefore cannot be used well.
+    Words that occur very rarely in a lot of texts, such as foreign words.

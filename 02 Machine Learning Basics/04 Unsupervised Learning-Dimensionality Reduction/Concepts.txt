@@ -1,0 +1,29 @@
+widespread problem
+Is with predictions based on statistical models is what's called underfitting
+
+PCA
+Principal Component Analysis
+Dimensionality reduction belongs to the field of unsupervised learning. 
+So it works without a target vector. Instead, information about the structure of the data is used directly to 
+determine whether and how the data can be transformed so that it has fewer features. 
+**Different algorithms have different approaches.
+**However, the basic assumption is always that there are features that contain redundant or little information about the data. 
+
+
+Singular Value Decomposition or SVD
+In a PCA with multiple features, when we have no idea what depends on what, we have to use SVD
+
+Negative mean absolute error
+
+
+
+
+PCA proceeds as follows: 
+For each dimension that the data should have after the transformation, 
+the algorithm searches for the direction of the greatest variance in the data. 
+This direction is called the principal component. The next principal component is chosen so that it is perpendicular to 
+the previous one as a vector, pointing in the direction of the greatest remaining variance.
+In the end the data is projected onto the principal components. 
+This is shown visually below. Each principal component is then a feature of the transformed data. 
+The number of new features is therefore directly indicated by the number of principal components.
+

@@ -1,0 +1,33 @@
+Which module allows us to access websites and copy their contents?
+    BeautifulSoup
+--> requests
+    website_url
+    http
+
+
+Which status_code of a response indicates that the server request has been successfully processed?
+--> 200
+    404
+    400
+    503
+
+
+Which module enables us to read the HTML content of a web page (what's known as "parsing")?
+    lxml.html
+--> BeautifulSoup
+    pandas
+    All three of these modules make it possible to read a web page's HTML content.
+
+
+How can you output a BeautifulSoup object containing a web page's HTML content, so that it is easier to read?
+    print(my_soup.beautify())
+--> print(my_soup.prettify())
+    print(my_soup.shape)
+    print(my_soup.find())
+
+
+How can we use a BeautifulSoup object to find an HTML element based on a specific tag?
+    soup.search('tag')
+    soup.retrieve('tag')
+--> soup.print('tag')
+    soup.find_all('tag')

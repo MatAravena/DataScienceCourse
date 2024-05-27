@@ -1,0 +1,26 @@
+Which three types of layer do you find in most artificial neural networks?
+    input layer, output layer and transfer layer
+--> input layer, hidden layer and output layer
+    output layer, hidden layer and activation layer
+    input layer, hidden layer and transformation layer
+
+
+Which activation function is well suited for the output neuron of a binary classification?
+--> Sigmoid function
+    ReLU function
+    Cosinus funktion
+    A fourth degree polynomial
+
+
+You have instantiated an ANN with the code model_ann = Sequential(). How do you add a Dense layer with 50 units to the model, which processes the features as inputs?
+    model_ann = Dense(units=50, activation='relu')
+    model_ann.add_units(50)
+--> model_ann.add(Dense(units=50, activation='relu', input_dim=input.shape[1]))
+    tensorflow.keras.add_layer(Dense(units=50, activation='relu'))
+
+
+How can you tell that an ANN was overfitted during training?
+    The accuracy for the validation data is less than 5%.
+    The difference between the loss calculated from the training data and from the validation data gets closer with additional training epochs.
+    The accuracy for the training data is less than 5%
+--> The difference calculated from the training data and from the validation data diverges with additional training epochs.

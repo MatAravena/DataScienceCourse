@@ -1,0 +1,94 @@
+Logistic regression 
+is a well-known algorithm for classification tasks. Although it's mentioned in the name, this algorithm can't be used for regression tasks.
+
+
+The object  𝑒
+is constant called Euler's number and its value is roughly 2.71
+
+
+The Sigmoid function
+ is that it only outputs continuous values between 0 and 1. 
+
+
+Collinearity
+In statistics, multicollinearity or collinearity is a situation where the predictors in a regression model are linearly dependent. 
+Perfect multicollinearity refers to a situation where the predictive variables have an exact linear relationship. 
+
+
+R²
+The coefficient of determination 
+measures how well a statistical model predicts an outcome. The outcome is represented by the model’s dependent variable.
+The lowest possible value of R² is 0 and the highest possible value is 1. 
+Put simply, the better a model is at making predictions, the closer its R² will be to 1.
+
+
+One-hot encoding
+is used to represent categorical features with new binary features that only contain `0` and `1`.
+
+
+ROC curve
+describes how the recall and false positive rate change with the threshold value.
+
+ROC AUC
+Receiver operator characteristic area under the curve
+
+
+
+Random forest 
+is a commonly-used machine learning algorithm that combines the output of multiple decision trees to reach a single result.
+
+Gini impurity
+This is the probability of misclassifying a data point based on this feature
+0 would indicate that all the data points belong to the same class
+
+
+criterion parameter
+controls which criterion is used to achieve the purest possible leaves
+You can choose between 'gini' and 'entropy'. These two criteria give the same results in 98% of cases, but 'entropy' can use more computing resources, 
+which is why the default 'criterion='gini' is often used.
+
+
+Bootstrap aggregating, 
+also called bagging (from bootstrap aggregating), is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of 
+machine learning algorithms used in statistical classification and regression.
+
+Random feature selection: Each time you want a decision tree to generate a decision rule, only a few randomly selected features are available to it.
+How many features do you want? Generally,  𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠⎯⎯√
+(rounded down) is chosen for this. For the attrition data set, this would be  √⎯⎯15=3.87, 
+so we round down to 3 features. This means that when the decision tree generates each decision rule, it uses the best of three randomly selected features to distinguish the categories from each other.
+
+
+Entropy 
+is a scientific concept that is most commonly associated with a state of disorder, randomness, or uncertainty.
+
+Support Vectors
+powerful machine learning algorithm
+SVMs can perform both classifications and regressions and they are often unbeatable in their prediction power for medium and small size data sets
+
+Corpus
+In NLP this kind of collection of text data
+
+tokenization or Token list
+Is a list words or sentences saved that allow Machine learning models should be able to recognize structures in the text
+such as individual words and their language components
+
+significant linguistic units
+words or sentences saved in as list within Corpus.
+
+part-of-speech tagging
+(POS tagging or PoS tagging or POST), also called grammatical tagging is the process of marking up a word in a text (corpus) 
+as corresponding to a particular part of speech,[1] based on both its definition and its context. A simplified form of this is commonly 
+taught to school-age children, in the identification of words as nouns, verbs, adjectives, adverbs, etc.
+
+
+vectorization 
+turn texts into usable numerical objects for machine learning algorithms
+(mathematically speaking, the final objects are vectors, the basic building blocks of linear algebra)
+
+
+
+PDPs
+Partial dependence plots show the average influence of feature values on the predictions
+
+ICE plots
+Independent conditional expectation plots visualize the influence of feature values for each data point separately

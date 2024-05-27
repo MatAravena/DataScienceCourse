@@ -1,0 +1,26 @@
+Which statement about the decision plane is false?
+    The decision plane determines which class a data point belongs to.
+    The decision plane is determined by the distance to the support vectors.
+--> The decision plane is always two-dimensional.
+    The decision plane makes it possible to make predictions quickly.
+
+
+You can think of the margin the width of the gap around the decision plane. What is the difference between a hard and a soft margin?
+    A high value for C represents a soft margin. In contrast to a hard margin, this margin can contain data points.
+    A low value for C represents a soft margin. In contrast to a hard margin, this margin cannot contain data points.
+--> A low value for C represents a soft margin. In contrast to a hard margin, this margin can contain data points.
+    A high value for C represents a soft margin. In contrast to a hard margin, this margin cannot contain data points.
+
+
+What are the support vectors of a support vector machine with hard margin?
+    These are the data points that have the greatest distance to the decision level.
+    These are vectors that are perpendicular to the decision plane and point to the data points that have the smallest distance to the decision plane.
+    These are vectors that are perpendicular to the decision plane and point to the data points that have the largest distance to the decision plane.
+--> These are the data points that have the smallest distance to the decision level.
+
+
+What is the correct code to initialize a support vector classifier with a Gaussian kernel and soft margin?
+    model = SVC(kernel='gaussian', C=1000)
+    model = SVC(kernel='rbf', C=1000)
+    model = SVC(kernel='gaussian', C=0.0001)
+--> model = SVC(kernel='rbf', C=0.0001)

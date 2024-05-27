@@ -1,0 +1,31 @@
+mean 
+arithmetic mean --> sum(X) / Len(X)
+
+median 
+is the typical value of a distribution. It marks the middle value if you put the data in order from the smallest to the largest value.
+
+median absolute deviation (MAD)
+is a robust value for the data's dispersion. This describes the median of the distances from all data points to the median value of the data series. 
+
+MSE
+->The mean squared error expresses the mean squared distance between the prediction and measured value
+The best is close to cero
+
+Ordinary least squares -- ols
+In short: the best hyperplane is determined by the mean of the sum of the squared errors, i.e. the MSE.
+Depending on the values we choose for "Beta0" and "Vector de Beta" the MSE will change.
+
+-- > In the case of two features, we can calculate their correlation coefficients. 
+     If this is close to zero, you can assume that there is no correlation between the features. 
+     If the value is 1 or -1, there is a perfect correlation and the assumption is clearly violated. 
+     Generally speaking, you should be concerned if you have a value exceeding 0.9 or -0.9.
+
+Hyperplane
+is a generalization of a two-dimensional plane in three-dimensional space to mathematical spaces of arbitrary dimension
+
+RANSAC
+RANdom SAmple Consensus. 
+As the name suggests, the point is that random samples only lead to similar model values if they don't contain outliers. 
+RANSAC regression therefore assumes that the non-outliers, or inliers of the data set lead to the model learning approximately the same parameters, 
+while the outliers produce all kinds of extreme deviations without consensus.
+

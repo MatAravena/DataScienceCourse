@@ -1,0 +1,33 @@
+Which method can you use to merge two DataFrames?
+    pd.append()
+    pd.add()
+--> pd.concat()
+    pd.DataFrame()
+
+
+How can you delay multiple consecutive HTML queries by 15 seconds each?
+    time.delay(15)
+    time.break(15)
+    time.stop(15)
+--> time.sleep(15)
+
+
+The following string of characters has been defined my_str = '12/24/2020'. The code re.findall(r'\d\d\/\d\d\/\d\d', my_str) returns a list. What does the list contain?
+    '12/24'
+    '24/12'
+    '24/12/2020'
+--> '12/24/20'
+
+
+The following string of characters has been defined my_str = '12345 Berlin'. The code re.findall(r'\d\d\d\d\d', my_str) returns a list. How many entries does the list contain?
+--> 1
+    2
+    3
+    4
+
+
+Which module can you use to extract text from PDF documents?
+    Py2PDF
+    PDF2Py
+--> PyPDF2
+    PDFPy2

@@ -1,0 +1,23 @@
+Which kind of classifier does a random forest combine?
+    Logistic regression
+    k Nearest Neighbors
+    k Means Clustering
+--> Decision trees
+
+What can you determine with the n_estimators parameter in RandomForestClassifier?
+--> The number of individual decision trees.
+    The depth of the individual decision trees.
+    The minimum size of the individual leaves of the decision trees.
+    The random configuration of the decision trees
+
+What is ensembling?
+    Balancing out uneven target categories with oversampling.
+--> Combining several models to make one big model.
+    Balancing out uneven target categories with undersampling.
+    Increasing the amount of training data with bootstrapping.
+
+How do the individual decision trees in a random forest differ from each other?
+    They only work on different randomly selected features.
+    They only work on different data points randomly selected by bootstrapping.
+--> They work on different randomly selected features as well as on different data points randomly selected by bootstrapping.
+    They aren't different.

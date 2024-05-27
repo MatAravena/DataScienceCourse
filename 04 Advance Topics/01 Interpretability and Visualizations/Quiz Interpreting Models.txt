@@ -1,0 +1,26 @@
+Which of the following models can be described as a black box model?
+    Decision tree
+    Lineare regression
+    Logistische regression
+--> random forest
+
+
+Which answer is not a model agnostic method for interpreting a model?
+    Permutation feature importance
+    Individual conditional expectation plots
+    Partial dependency plots
+--> Feature weights
+
+
+Which statement applies to PDP and ICE plots?
+--> A PDP is the average of all lines on the ICE plot.
+    PDPs show a line for each data point indicating how the predictions change with the feature value.
+    ICE plots show the average influence of a feature on the predictions.
+    PDP and ICE plots can only be used with random forests
+
+
+With permutation feature importance, the importance of a feature is described as a change in metric if the link between the feature and the prediction is lost. How is this implemented in the permutation feature importance?
+    The feature is removed and the model is re-trained.
+    The values of the feature are replaced by missing values and the model is re-evaluated.
+--> The values of the feature are randomly mixed among the data points and the model is re-trained.
+    The values of the feature are set to the same value for all data points and the model is re-evaluated.

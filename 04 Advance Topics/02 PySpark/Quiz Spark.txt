@@ -1,0 +1,26 @@
+Which of the following is not a characteristic of Big Data?
+--> Vigilance
+    Velocity
+    Volume
+    Variety
+
+
+Which of these code snippets gives you a summary of the basic statistical values of a spark.DataFrame ?
+    my_df.count()
+--> my_df.describe().show()
+    my_df.collect().describe()
+    my_df.show()
+
+
+Which of these commands does NOT return a spark.DataFrame?
+    my_df[['col1','col2']]
+--> my_df['col1']
+    my_df.select(['col1','col2'])
+    my_df.select('col1')
+
+
+Which of the following SQL queries is correct?
+    """FROM table SELECT col ORDER BY col DESC"""
+    """SELECT col FROM (ORDER table BY col DESC)"""
+--> """SELECT col FROM table ORDER BY col DESC"""
+    """FROM table ORDER BY col DESC SELECT col"""

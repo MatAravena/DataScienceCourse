@@ -1,0 +1,26 @@
+What do decision trees use to classify data points?
+    The distance to the data point's nearest neighbors.
+    The slope and intercepts of a line or plane fitted to the data.
+--> Branched decision rules similar to if-else queries.
+    The distance between the projection of the data point and its neighbors in a space with fewer dimensions.
+
+
+Which parameter of DecisionTreeClassifier specifies the number of decision rules?
+--> max_depth
+    random_state
+    min_samples_leaf
+    criterion
+
+
+Which statement about a decision tree's hyperparameters is not true?
+    Decision trees with a high max_depth tend to be overfitted.
+--> Decision trees with a high max_depth tend to be underfitted.
+    Decision trees with a high min_samples_leaf tend to be underfitted.
+    Decision trees with a low min_samples_leaf tend to be overfitted.
+
+
+How does numerical data have to be scaled so that a decision tree can it meaningfully?
+    With StandardScaler.
+    With MinMaxScaler.
+--> The data does not have to be standardized.
+    With OneHotEncoder.
