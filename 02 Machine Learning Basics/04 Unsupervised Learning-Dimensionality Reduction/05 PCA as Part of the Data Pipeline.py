@@ -139,8 +139,7 @@ ax.set(title="Eigenvector for pc1", ylabel="Importance in pc1");
 # And apparently the first 10 are more important
 plt.figure(figsize=(15,5))
 ax = abs(eigenvectors).loc['pc1',:].sort_values(ascending=False).head(10).plot.bar()
-ax.set(title="Eigenvector for pc1", 
-       ylabel="Importance in pc1");
+ax.set(title="Eigenvector for pc1", ylabel="Importance in pc1");
 
 
 # Remember:
